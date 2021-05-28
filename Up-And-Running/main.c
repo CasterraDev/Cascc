@@ -37,6 +37,18 @@ void main(int argc,char *argv[]){
         exit(1);
     }
 
-    scanFile();
+    // Create the output file
+    if ((Outfile = fopen("out.s", "w")) == NULL) {
+        fprintf(stderr, "Unable to create out.s: %s\n", strerror(errno));
+        exit(1);
+    }
+
+    struct ASTnode *n;
+    //Grab the first Token
+    scan(&Token);
+    n = makeTree();
+    printf("%d\n",computeAst(n));
+    generateCode(n);
+    fclose(Outfile);
     exit(0);
 }
