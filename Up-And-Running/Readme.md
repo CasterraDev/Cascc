@@ -62,7 +62,7 @@ With AST `Answer: 14`:
  1     2   3      4
 ```
 
-##x86-64 Code Generator
+## x86-64 Code Generator
 
 I'm using registers in `cg.c` to translate c into assembly. Currently if their are no available registers the program will crash which I hopefully I will finish next version.
 
