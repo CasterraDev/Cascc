@@ -4,7 +4,7 @@ A very simple compiler that compiles simple equations into asm
 
 There are 4 steps of a basic compiler
 
-![Steps of a compiler](https://github.com/CasterraDev/Little-C/basics-of-a-compiler.jpg)
+![Steps of a compiler](https://github.com/CasterraDev/Little-C/blob/main/Up-And-Running/basics-of-a-compiler.jpg)
 
 Abstract Syntax Trees (ASTNodes) will be doing the semantic analysis. AST is going to make sure PEMDAS is used and the correct answer is calculated.
 
