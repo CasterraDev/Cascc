@@ -1,13 +1,21 @@
 #Get it Up and Running
 A very simple compiler that compiles simple equations into asm
 
+There are 4 steps of a basic compiler
+
+
+
+Abstract Syntax Trees (ASTNodes) will be doing the semantic analysis. AST is going to make sure PEMDAS is used and the correct answer is calculated.
+
+I'm using registers in `cg.c` to translate c into assembly. Currently if their are no available registers the program will crash which I hopefully I will finish next version.
+
 This simple compiler gives you the correct answer for the equation and puts the assembly output into `out.s`.
 
 For the equation:
 
 `2 + 8 * 5 - 10 / 2`
 
-The assembly output will look like:
+The assembly output will look like this:
 
 ```	.text
 .LC0:
