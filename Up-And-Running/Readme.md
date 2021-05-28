@@ -114,3 +114,12 @@ main:
 	popq %rbp
 	ret
 ```
+
+## Run It
+
+Download the files then do:
+
+`make comp1`
+
+then do `make test` or `./comp1 input1`
+
