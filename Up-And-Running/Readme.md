@@ -1,10 +1,14 @@
 #Get it Up and Running
 A very simple compiler that compiles simple equations into asm
 
-This simple compiler gives you the correct answer for the equation and puts the assembly output into `out.s`
+This simple compiler gives you the correct answer for the equation and puts the assembly output into `out.s`.
+
 For the equation:
+
 `2 + 8 * 5 - 10 / 2`
+
 The assembly output will look like:
+
 ```	.text
 .LC0:
 	.string	"%d\n"
@@ -44,3 +48,5 @@ main:
 	movl $0, %eax
 	popq %rbp
 	ret```
+	
+
