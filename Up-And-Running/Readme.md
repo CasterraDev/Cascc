@@ -47,6 +47,9 @@ main:
 	call	printint
 	movl $0, %eax
 	popq %rbp
-	ret```
+	ret
+```
+
+This is done by using registers.
 	
 
