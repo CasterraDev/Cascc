@@ -18,13 +18,13 @@ There are 4 steps of a basic compiler
 
 ![Steps of a compiler](https://github.com/CasterraDev/Little-C/blob/main/Up-And-Running/basics-of-a-compiler.jpg)
 
-Lexical Scanning: In many languages `=` is different from `==`, So you have to be sure to look ahead or else the file will be misread.
++ [Lexical Scanning](https://en.wikipedia.org/wiki/Lexical_analysis): In many languages `=` is different from `==`, So you have to be sure to look ahead or else the file will be misread.
 
-Syntax Analysis: Make sure the file conforms to the grammar of the language.
++ [Syntax Analysis](https://en.wikipedia.org/wiki/Parsing): Make sure the file conforms to the grammar of the language.
 
-Semantic Analysis: This is where you try to understand what it is reading.
++ [Semantic Analysis](https://en.wikipedia.org/wiki/Semantic_analysis_(linguistics)): This is where it tries to understand what it is reading.
 
-Intermediate Code Generation: Translate the code into another language, generally a lower-level language from the starter one.
++ [Intermediate Code Generation](https://en.wikipedia.org/wiki/Code_generation_(compiler)): Translate the code into another language, generally a lower-level language from the starter one.
 
 ## Abstract Syntax Trees
 
