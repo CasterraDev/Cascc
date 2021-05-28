@@ -1,8 +1,6 @@
 # Little-C (WIP)
 A self compiled compiler for the language C
 
-# Get it Up and Running
-
 A very simple compiler that compiles simple equations into asm
 
 This compiler can calculate the four basic operators `+`, `-`, `*`, and `/`.
