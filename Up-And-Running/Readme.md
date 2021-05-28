@@ -5,7 +5,7 @@ This simple compiler gives you the correct answer for the equation and puts the 
 For the equation:
 `2 + 8 * 5 - 10 / 2`
 The assembly output will look like:
-`	.text
+```	.text
 .LC0:
 	.string	"%d\n"
 printint:
@@ -43,4 +43,4 @@ main:
 	call	printint
 	movl $0, %eax
 	popq %rbp
-	ret`
+	ret```
