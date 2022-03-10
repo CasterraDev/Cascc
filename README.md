@@ -1,4 +1,4 @@
-# Little-C (WIP)
+# Cascc (WIP)
 A self compiled compiler for the language C
 
 A very simple compiler that compiles simple equations into asm
